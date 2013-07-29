@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "CMUSV.app"
-               BlueprintName = "CMUSV"
-               ReferencedContainer = "container:CMUSV.xcodeproj">
+               BlueprintName = "CMU SV"
+               ReferencedContainer = "container:CMU SV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "CMUSV.app"
-            BlueprintName = "CMUSV"
-            ReferencedContainer = "container:CMUSV.xcodeproj">
+            BlueprintName = "CMU SV"
+            ReferencedContainer = "container:CMU SV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "CMUSV.app"
-            BlueprintName = "CMUSV"
-            ReferencedContainer = "container:CMUSV.xcodeproj">
+            BlueprintName = "CMU SV"
+            ReferencedContainer = "container:CMU SV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "CMUSV.app"
-            BlueprintName = "CMUSV"
-            ReferencedContainer = "container:CMUSV.xcodeproj">
+            BlueprintName = "CMU SV"
+            ReferencedContainer = "container:CMU SV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
