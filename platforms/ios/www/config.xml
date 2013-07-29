@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ed.cmu.sv.mobile" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CMUSV</name>
+    <name>CMU SV</name>
     <description>
         Carnegie Mellon University Silicon Valley Mobile App.
     </description>
