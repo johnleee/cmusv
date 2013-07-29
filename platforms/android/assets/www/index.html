@@ -28,6 +28,7 @@
   <script src="https://www.google.com/jsapi"></script>
    
   <script src="https://codiqa.com/view/b6f39d66/js"></script>
+  <script src="js/cmusv.js"></script>
   
 </head>
 <body>
@@ -131,9 +132,6 @@
           </ul>
       </div>
       <div data-theme="a" data-role="header">
-          <a data-role="button" data-theme="f" href="#panel16" data-icon="bars"
-          data-iconpos="notext" class="ui-btn-right">
-          </a>
           <a data-role="button" data-rel="back" data-theme="f" href="#news" data-icon="arrow-l"
           data-iconpos="notext" class="ui-btn-left">
           </a>
@@ -141,60 +139,9 @@
               News
           </h3>
       </div>
-      <div data-role="content" style="padding: 10px">
-          <div data-controltype="textblock">
-              <ul>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/iannucci-director-announcement.html"
-                          title="Bob Iannucci Director Announcement" data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/iannucci-director-announcement.html">
-                              Carnegie Mellon University Names Bob Iannucci to Head Silicon Valley Campus
-                          </a>
-                      </span>
-                  </li>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/collin-jackson-apportable.html"
-                          title="Apportable news story" data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/collin-jackson-apportable.html">
-                              Apportable Gains Momentum with $2.4 Million in Seed Funding
-                          </a>
-                      </span>
-                  </li>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/eac-roundtable.html"
-                          data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/eac-roundtable.html">
-                              CMU-SV Presents Accessible Voting Project at EAC Roundtable
-                              <br>
-                          </a>
-                      </span>
-                  </li>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/iris-launch.html"
-                          data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/iris-launch.html">
-                              NASA's IRIS Mission to Launch with Antennas from CMU-SV Startup X5 Systems
-                              <br>
-                          </a>
-                      </span>
-                  </li>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/martin-griss-software-reuse-conference.html"
-                          title="Software Reuse Conference news article" data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/martin-griss-software-reuse-conference.html">
-                              Martin Griss Chairs International Conference on Software Reuse
-                          </a>
-                      </span>
-                  </li>
-                  <li>
-                      <span style="font-size: small;">
-                          <a href="http://www.cmu.edu/silicon-valley/news-events/news/2013/griss-announcement.html"
-                          data-mce-href="http://www.cmu.edu/silicon-valley/news-events/news/2013/griss-announcement.html">
-                              CMU-SV Director Martin Griss to Step Down, Continue as Research Scientist
-                          </a>
-                      </span>
-                  </li>
-              </ul>
+          <div data-role="content">
+            <ul id="feed" data-role="listview" data-divider-theme="b" data-inset="true">
+            </ul>
           </div>
           <a data-role="button" data-theme="a" href="#infoSessions">
               Find an Info Session
