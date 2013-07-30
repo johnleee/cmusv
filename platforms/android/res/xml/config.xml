@@ -22,4 +22,7 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.core.InAppBrowser" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.core.SplashScreen" />
+    </feature>
 </widget>

@@ -13,6 +13,13 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.core.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.core.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ]
 });

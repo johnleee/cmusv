@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -47,6 +46,7 @@
 		C03D57C832124F389409C2BB /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EBA4C491CB4ED2B61510FB /* CDVInAppBrowser.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
+		B5D6D0F3BB64405790FABB70 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BAD240BEF64D12A19338E7 /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +116,8 @@
 		D368F0F372444FF2BFDEB3BD /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.core.device/CDVDevice.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CMUSV/config.xml; sourceTree = "<group>"; };
+		48BAD240BEF64D12A19338E7 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.core.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6E041D429CE1451CACB57080 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.core.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,8 @@
 				80ACD435307B4FAD9FAE4D28 /* CDVDevice.h */,
 				70EBA4C491CB4ED2B61510FB /* CDVInAppBrowser.m */,
 				7F6D243135EB438396780896 /* CDVInAppBrowser.h */,
+				48BAD240BEF64D12A19338E7 /* CDVSplashScreen.m */,
+				6E041D429CE1451CACB57080 /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = CMUSV/Plugins;
@@ -339,7 +343,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 460;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CMUSV" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -434,6 +438,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				9760A6DB4E9749CCBA039183 /* CDVDevice.m in Sources */,
 				C03D57C832124F389409C2BB /* CDVInAppBrowser.m in Sources */,
+				B5D6D0F3BB64405790FABB70 /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
