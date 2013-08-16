@@ -1,6 +1,6 @@
 #CMU Silicon Valley Mobile App
 
-This is Open Source Project for the Carnegie Mellon Univesity Silicon Valley app.
+This is Open Source Project for the Carnegie Mellon Univesity Silicon Valley Mobile App.
 
 ##Technology Stack
 * Apache Cordova: http://cordova.apache.org/
@@ -11,7 +11,7 @@ This is Open Source Project for the Carnegie Mellon Univesity Silicon Valley app
 * Android: http://developer.android.com
 
 ##Getting Started
-1. Clone this repo. eg. git@github.com:johnleee/cmusv.git
+1. Fork this repo and clone to your machine. eg. git@github.com:johnleee/cmusv.git
 2. Open CMUSV/platforms/ios/www/index.html in IDE/texteditor
 3. That's it, can start making changes to index.html, update files in js and css directories, and add images.
 
